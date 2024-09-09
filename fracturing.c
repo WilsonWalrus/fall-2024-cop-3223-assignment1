@@ -35,8 +35,8 @@ double calculateDiameter()
 	diameter = sqrt(diameter);
 
 	//Outputs
-	printf("Point #1 entered: x1 = %lf; y1 = %lf\n", x1, y1);
-	printf("Point #2 entered: x2 = %lf; y2 = %lf\n", x2, y2);
+	printf("Point #1 entered: x1 = %lf; y1 = %lf\n", &x1, &y1);
+	printf("Point #2 entered: x2 = %lf; y2 = %lf\n", &x2, &y2);
 
 	return diameter;
 }
